@@ -40,7 +40,7 @@ export default function Components(props) {
       <div onClick={()=>window.scrollTo({top: 0, behavior: "smooth"})}>
         <Header
           brand="Home Sweet Home"
-          rightLinks={<HeaderLinks />}
+          // rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
           changeColorOnScroll={{
@@ -67,14 +67,14 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
+        <SectionCarousel />
+        {/* <SectionBasics />
         <SectionNavbars />
         <SectionTabs />
         <SectionPills />
         <SectionNotifications />
         <SectionTypography />
         <SectionJavascript />
-        <SectionCarousel />
         <SectionCompletedExamples />
         <SectionLogin />
         <GridItem md={12} className={classes.textCenter}>
@@ -85,7 +85,7 @@ export default function Components(props) {
           </Link>
         </GridItem>
         <SectionExamples />
-        <SectionDownload />
+        <SectionDownload /> */}
       </div>
       <Footer />
     </div>

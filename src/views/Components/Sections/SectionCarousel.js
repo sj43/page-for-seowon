@@ -10,9 +10,20 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import image1 from "assets/img/bg.jpg";
-import image2 from "assets/img/bg2.jpg";
-import image3 from "assets/img/bg3.jpg";
+import image1 from "assets/img/carousel1.jpeg";
+import image2 from "assets/img/carousel2.jpeg";
+import image3 from "assets/img/carousel3.jpeg";
+import image4 from "assets/img/carousel4.jpeg";
+import image5 from "assets/img/carousel5.jpeg";
+import image6 from "assets/img/carousel6.jpeg";
+import image7 from "assets/img/carousel7.jpeg";
+import image8 from "assets/img/carousel8.jpeg";
+import image9 from "assets/img/carousel9.jpeg";
+import image10 from "assets/img/carousel10.jpeg";
+import image11 from "assets/img/carousel11.jpeg";
+
+
+
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
 
@@ -59,6 +70,78 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img src={image3} alt="Third slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      Yellowstone National Park, United States
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image4} alt="Fourth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      Yellowstone National Park, United States
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image5} alt="Fifth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      Yellowstone National Park, United States
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image6} alt="Sixth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      Yellowstone National Park, United States
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image7} alt="Seventh slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      Yellowstone National Park, United States
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image8} alt="Eighth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      Yellowstone National Park, United States
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image9} alt="Nineth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      Yellowstone National Park, United States
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image10} alt="Tenth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      Yellowstone National Park, United States
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image11} alt="Eleventh slide" className="slick-image" />
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
