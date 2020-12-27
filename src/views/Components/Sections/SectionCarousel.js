@@ -10,17 +10,17 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import image1 from "assets/img/carousel1.jpeg";
-import image2 from "assets/img/carousel2.jpeg";
-import image3 from "assets/img/carousel3.jpeg";
-import image4 from "assets/img/carousel4.jpeg";
-import image5 from "assets/img/carousel5.jpeg";
-import image6 from "assets/img/carousel6.jpeg";
-import image7 from "assets/img/carousel7.jpeg";
-import image8 from "assets/img/carousel8.jpeg";
-import image9 from "assets/img/carousel9.jpeg";
-import image10 from "assets/img/carousel10.jpeg";
-import image11 from "assets/img/carousel11.jpeg";
+import image1 from "assets/img/carousel1.jpg";
+import image2 from "assets/img/carousel2.jpg";
+import image3 from "assets/img/carousel3.jpg";
+import image4 from "assets/img/carousel4.jpg";
+import image5 from "assets/img/carousel5.jpg";
+import image6 from "assets/img/carousel6.jpg";
+import image7 from "assets/img/carousel7.jpg";
+import image8 from "assets/img/carousel8.jpg";
+import image9 from "assets/img/carousel9.jpg";
+import image10 from "assets/img/carousel10.jpg";
+import image11 from "assets/img/carousel11.jpg";
 
 
 
