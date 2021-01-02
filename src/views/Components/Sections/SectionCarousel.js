@@ -21,6 +21,9 @@ import image8 from "assets/img/carousel8.jpg";
 import image9 from "assets/img/carousel9.jpg";
 import image10 from "assets/img/carousel10.jpg";
 import image11 from "assets/img/carousel11.jpg";
+import image12 from "assets/img/carousel12.jpg";
+import image13 from "assets/img/carousel13.jpg";
+import image14 from "assets/img/carousel14.jpg";
 
 
 
@@ -51,7 +54,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      사랑해 서원굴아!
                     </h4>
                   </div>
                 </div>
@@ -64,7 +67,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Somewhere Beyond, United States
+                      사랑해 서원굴아!
                     </h4>
                   </div>
                 </div>
@@ -73,7 +76,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      사랑해 서원굴아!
                     </h4>
                   </div>
                 </div>
@@ -82,7 +85,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      사랑해 서원굴아!
                     </h4>
                   </div>
                 </div>
@@ -91,7 +94,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      사랑해 서원굴아!
                     </h4>
                   </div>
                 </div>
@@ -100,7 +103,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      사랑해 서원굴아!
                     </h4>
                   </div>
                 </div>
@@ -118,7 +121,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      사랑해 서원굴아!
                     </h4>
                   </div>
                 </div>
@@ -127,7 +130,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      사랑해 서원굴아!
                     </h4>
                   </div>
                 </div>
@@ -136,7 +139,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      사랑해 서원굴아!
                     </h4>
                   </div>
                 </div>
@@ -145,7 +148,34 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      사랑해 서원굴아!
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image12} alt="Twelveth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      사랑해 서원굴아!
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image13} alt="Thirteenth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      사랑해 서원굴아!
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image14} alt="Fourteenth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      사랑해 서원굴아!
                     </h4>
                   </div>
                 </div>
