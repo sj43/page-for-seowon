@@ -31,9 +31,9 @@ ReactDOM.render(
 
     
     <ReactAudioPlayer
-      src={require("assets/bgm.ogg")}
-      autoPlay
+      src={require("bgm.mp3")}
       controls
+      autoPlay
       loop
       crossOrigin="anonymous"
     />,
