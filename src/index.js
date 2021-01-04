@@ -32,6 +32,7 @@ ReactDOM.render(
     controls
     loop
     volume={0.8}
+    crossOrigin="anonymous"
   />,
   </Router>,
     
