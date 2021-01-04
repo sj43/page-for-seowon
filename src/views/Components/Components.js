@@ -56,7 +56,7 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Happy 2000일!</h1>
+                <h1 className={classes.title}>I Love You 2000!</h1>
                 <h3 className={classes.subtitle}>
                   우리의 2000일, 그리고 앞으로 있을 평생을 축하하며 :)
                 </h3>
@@ -67,14 +67,15 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        
+        {/* <SectionTypography /> */}
         <SectionCarousel />
+
         {/* <SectionBasics />
         <SectionNavbars />
         <SectionTabs />
         <SectionPills />
         <SectionNotifications />
-        <SectionTypography />
+        
         <SectionJavascript />
         <SectionCompletedExamples />
         <SectionLogin />

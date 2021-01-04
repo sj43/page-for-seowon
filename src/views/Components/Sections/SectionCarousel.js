@@ -40,7 +40,13 @@ export default function SectionCarousel() {
     speed: 400,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true
+    autoplay: true,
+    draggable: true,
+    fade: true,
+    swipeToSlide: true,
+    adaptiveHeight: true,
+    // variableWidth: true,
+    centerMode: true
   };
   return (
     <div className={classes.section}>
@@ -112,7 +118,7 @@ export default function SectionCarousel() {
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
-                      Yellowstone National Park, United States
+                      사랑해 서원굴아!
                     </h4>
                   </div>
                 </div>
