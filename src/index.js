@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Snowfall from "react-snowfall";
 import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router-dom";
 
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route path="/login-page" component={LoginPage} />
       <Route path="/" component={Components} />
     </Switch>
+    <Snowfall />
   </Router>,
   document.getElementById("root")
 );
