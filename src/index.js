@@ -6,7 +6,6 @@ import { Router, Route, Switch } from "react-router-dom";
 import ReactAudioPlayer from "react-audio-player";
 
 import "assets/scss/material-kit-react.scss?v=1.9.0";
-// import bgm from "assets/bgm.mp3";
 // pages for this product
 import Components from "views/Components/Components.js";
 import LandingPage from "views/LandingPage/LandingPage.js";
@@ -18,22 +17,26 @@ var hist = createBrowserHistory();
 ReactDOM.render(
 
   <Router history={hist}>
+
     <Switch>
       <Route path="/landing-page" component={LandingPage} />
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
       <Route path="/" component={Components} />
     </Switch>
-    
     <Snowfall />
+    {/* <div className="bgm">
+      <audio src="assets/bgm.mp3" controls>
+    </div> */}
+
+    
     <ReactAudioPlayer
-    src={require("assets/bgm.mp3")}
-    autoPlay
-    controls
-    loop
-    volume={0.8}
-    crossOrigin="anonymous"
-  />,
+      src={require("assets/bgm.ogg")}
+      autoPlay
+      controls
+      loop
+      crossOrigin="anonymous"
+    />,
   </Router>,
     
   document.getElementById("root")
