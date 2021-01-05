@@ -12,10 +12,10 @@ import Card from "components/Card/Card.js";
 
 import image1 from "assets/img/carousel1.jpg";
 import image2 from "assets/img/carousel2.jpg";
-import image3 from "assets/img/carousel3.jpg";
-import image4 from "assets/img/carousel4.jpg";
-import image5 from "assets/img/carousel5.jpg";
-import image6 from "assets/img/carousel6.jpg";
+// import image3 from "assets/img/carousel3.jpg";
+// import image4 from "assets/img/carousel4.jpg";
+// import image5 from "assets/img/carousel5.jpg";
+// import image6 from "assets/img/carousel6.jpg";
 import image7 from "assets/img/carousel7.jpg";
 import image8 from "assets/img/carousel8.jpg";
 import image9 from "assets/img/carousel9.jpg";
@@ -24,8 +24,11 @@ import image11 from "assets/img/carousel11.jpg";
 import image12 from "assets/img/carousel12.jpg";
 import image13 from "assets/img/carousel13.jpg";
 import image14 from "assets/img/carousel14.jpg";
-
-
+import image15 from "assets/img/carousel15.jpg";
+import image16 from "assets/img/carousel16.jpg";
+import image17 from "assets/img/carousel17.jpg";
+import image18 from "assets/img/carousel18.jpg";
+import image19 from "assets/img/carousel19.jpg";
 
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
@@ -77,42 +80,7 @@ export default function SectionCarousel() {
                     </h4>
                   </div>
                 </div>
-                <div>
-                  <img src={image3} alt="Third slide" className="slick-image" />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      사랑해 서원굴아!
-                    </h4>
-                  </div>
-                </div>
-                <div>
-                  <img src={image4} alt="Fourth slide" className="slick-image" />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      사랑해 서원굴아!
-                    </h4>
-                  </div>
-                </div>
-                <div>
-                  <img src={image5} alt="Fifth slide" className="slick-image" />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      사랑해 서원굴아!
-                    </h4>
-                  </div>
-                </div>
-                <div>
-                  <img src={image6} alt="Sixth slide" className="slick-image" />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      사랑해 서원굴아!
-                    </h4>
-                  </div>
-                </div>
+                
                 <div>
                   <img src={image7} alt="Seventh slide" className="slick-image" />
                   <div className="slick-caption">
@@ -178,6 +146,51 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img src={image14} alt="Fourteenth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      사랑해 서원굴아!
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image15} alt="Fifteenth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      사랑해 서원굴아!
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image16} alt="Sixteenth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      사랑해 서원굴아!
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image17} alt="Seventeenth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      사랑해 서원굴아!
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image18} alt="Eighteenth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      사랑해 서원굴아!
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image19} alt="Nineteenth slide" className="slick-image" />
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />

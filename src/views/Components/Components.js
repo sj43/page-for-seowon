@@ -24,10 +24,11 @@ import Parallax from "components/Parallax/Parallax.js";
 // import SectionTypography from "./Sections/SectionTypography.js";
 // import SectionJavascript from "./Sections/SectionJavascript.js";
 import SectionCarousel from "./Sections/SectionCarousel.js";
-// import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
+import SectionCompletedExamples from "./Sections/SectionCompletedExamples.js";
 // import SectionLogin from "./Sections/SectionLogin.js";
 // import SectionExamples from "./Sections/SectionExamples.js";
 // import SectionDownload from "./Sections/SectionDownload.js";
+import SectionCustomLetter from "./Sections/SectionCustomLetter.js";
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 
@@ -68,7 +69,11 @@ export default function Components(props) {
 
       <div className={classNames(classes.main, classes.mainRaised)}>
         {/* <SectionTypography /> */}
+        <SectionCustomLetter />
         <SectionCarousel />
+
+        {/* <SectionCompletedExamples /> */}
+        {/* <SectionExamples /> */}
 
         {/* <SectionBasics />
         <SectionNavbars />
