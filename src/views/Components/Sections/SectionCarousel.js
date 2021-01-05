@@ -14,17 +14,17 @@ import image1 from "assets/img/carousel1.jpg";
 import image2 from "assets/img/carousel2.jpg";
 import image7 from "assets/img/carousel7.jpg";
 import image8 from "assets/img/carousel8.jpg";
-import image9 from "assets/img/carousel9.jpg";
 import image10 from "assets/img/carousel10.jpg";
 import image11 from "assets/img/carousel11.jpg";
 import image12 from "assets/img/carousel12.jpg";
 import image13 from "assets/img/carousel13.jpg";
 import image14 from "assets/img/carousel14.jpg";
 import image15 from "assets/img/carousel15.jpg";
-import image16 from "assets/img/carousel16.jpg";
 import image17 from "assets/img/carousel17.jpg";
 import image18 from "assets/img/carousel18.jpg";
 import image19 from "assets/img/carousel19.jpg";
+import image20 from "assets/img/carousel20.jpg";
+import image21 from "assets/img/carousel21.jpg";
 
 // 19 17 18 16 10 1 2 11 7 8 12 13 14 15 9
 
@@ -66,7 +66,7 @@ export default function SectionCarousel() {
                   </div>
                 </div>
                 <div>
-                  <img src={image17} alt="Seventeenth slide" className="slick-image" />
+                  <img src={image21} alt="Twenty first slide" className="slick-image" />
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
@@ -84,7 +84,7 @@ export default function SectionCarousel() {
                   </div>
                 </div>
                 <div>
-                  <img src={image16} alt="Sixteenth slide" className="slick-image" />
+                  <img src={image17} alt="Seventeenth slide" className="slick-image" />
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
@@ -92,6 +92,7 @@ export default function SectionCarousel() {
                     </h4>
                   </div>
                 </div>
+
                 <div>
                   <img src={image10} alt="Tenth slide" className="slick-image" />
                   <div className="slick-caption">
@@ -136,6 +137,15 @@ export default function SectionCarousel() {
                 </div>
                 <div>
                   <img src={image8} alt="Eighth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      사랑해 서원굴아!
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={image20} alt="Twentieth slide" className="slick-image" />
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
@@ -189,16 +199,6 @@ export default function SectionCarousel() {
                     </h4>
                   </div>
                 </div>
-                <div>
-                  <img src={image9} alt="Nineth slide" className="slick-image" />
-                  <div className="slick-caption">
-                    <h4>
-                      <LocationOn className="slick-icons" />
-                      사랑해 서원굴아!
-                    </h4>
-                  </div>
-                </div>
-
                 
               </Carousel>
             </Card>

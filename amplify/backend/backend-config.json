@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "pageforseowon7cc5457d": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "pageforseowoncontents": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
