@@ -25,7 +25,7 @@ import image18 from "assets/img/carousel18.jpg";
 import image19 from "assets/img/carousel19.jpg";
 import image20 from "assets/img/carousel20.jpg";
 import image21 from "assets/img/carousel21.jpg";
-
+import bg4 from "assets/img/bg4.jpg";
 // 19 17 18 16 10 1 2 11 7 8 12 13 14 15 9
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
@@ -95,6 +95,15 @@ export default function SectionCarousel() {
 
                 <div>
                   <img src={image10} alt="Tenth slide" className="slick-image" />
+                  <div className="slick-caption">
+                    <h4>
+                      <LocationOn className="slick-icons" />
+                      사랑해 서원굴아!
+                    </h4>
+                  </div>
+                </div>
+                <div>
+                  <img src={bg4} alt="bg4 slide" className="slick-image" />
                   <div className="slick-caption">
                     <h4>
                       <LocationOn className="slick-icons" />
