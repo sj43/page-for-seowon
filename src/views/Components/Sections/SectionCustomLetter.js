@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
-import CardHeader from "components/Card/CardHeader.js";
+// import CardHeader from "components/Card/CardHeader.js";
 import CardFooter from "components/Card/CardFooter.js";
 import Favorite from '@material-ui/icons/Favorite';
 import Button from 'components/CustomButtons/Button.js';
@@ -35,9 +35,17 @@ export default function Cards() {
                         <Card className={classes.textCenter}>
                             {/* <CardHeader color="default"></CardHeader> */}
                             <CardBody>
-                                <h4 className={classes.cardTitle}>내 사랑 서렁둥이야!</h4>
+                                <h4 className={classes.cardTitle}>내 사랑 서렁둥이야 ♡</h4>
                                 <p>
-                                    이번 학기 중에 서원이 먼저 한국 들어가고 미국에 내가 혼자 남아있으면서,
+                                서원아 우리 2000일이다! 축하해♡ 오랫동안 함께여서 감사하고 행복해. 
+                                2000일이라는건 사실 예전엔 생각조차도 잘 안되던 거였는데 이제 우리는 말 그대로 2000일 기념을 하고있네 ㅎㅎ
+                                기념일이라는건 시간이 지나고 지나면서 그 오래됨과 추억들을 기리는 날이라 생각해. 
+                                우리가 함께해왔던 수많은 날들과 그와함께 성장해왔던 우리의 연애가 그동안의 희노애락을 설명해주는것 같아 기분이 묘해 
+                                
+                                    
+        </p>
+        <p>
+        이번 학기 중에 서원이 먼저 한국 들어가고 미국에 내가 혼자 남아있으면서,
                                     취업 준비와 학업, 그리고 홀로 있는 외로움을 버티면서 어떤 생각을 했게?
                                     내가 기필코 취업 떡하니 하고 이번 겨울에 한국 들어가서 서원이와 행복한 시간을
                                     많이 보내리라 다짐했어 ㅋㅋ 결론적으로 학기도 잘 끝내구 취업도 잘 마무리 된 상태로
@@ -60,14 +68,14 @@ export default function Cards() {
                 고맙고, 이젠 나도 서원이를 더욱 행복한 사람으로 만들어볼게.
         </p>
                                 <p>
-                                    모든 걸 다 갖춘 예쁘고 귀엽고 또크또크하고 지혜롭고 총명하고 착하고 참한 내 사람 서원아!
+                                    엄청 오래 함께해왔지만 그보다 더 더 오래 함께하고픈, 모든 걸 다 갖춘 예쁘고 귀엽고 또크또크하고 지혜롭고 총명하고 착하고 참한 내 사람 서원아!
                                     그 예쁜 얼굴에 눈물 고이지 않게, 항상 방실방실 웃는 얼굴 지을 수 있게 노력할게.
         </p>
                                 <p>
                                     상록수, 기억하지?
         </p>
                                 <p>
-                                    항상 푸르르게 서원이와 함께할게. 사랑해!
+                                    항상 푸르르게 서원이와 함께할게. 우리의 2000일 다시 한번 축하하고 많이 사랑해♡
         </p>
                                 <Button justIcon round color="primary"><Favorite style={{ color: "#FFFFFF" }} /></Button>
                                 {/* <Button color="primary">Do Something</Button> */}
