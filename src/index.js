@@ -20,6 +20,31 @@ Amplify.configure(awsconfig);
 
 var hist = createBrowserHistory();
 
+
+// const bgm = await Storage.get('bgm.mp3');
+// export function downloadBlob(blob, filename) {
+//   const url = URL.createObjectURL(blob);
+//   const a = document.createElement('a');
+//   a.href = url;
+//   a.download = filename || 'download';
+//   const clickHandler = () => {
+//     setTimeout(() => {
+//       URL.revokeObjectURL(url);
+//       a.removeEventListener('click', clickHandler);
+//     }, 150);
+//   };
+//   a.addEventListener('click', clickHandler, false);
+//   a.click();
+//   return a;
+// }
+
+// // usage
+// Storage.get(fileKey, { download: true })
+//         .then(res => downloadBlob(res.Body, downloadFileName)) // derive downloadFileName from fileKey if you wish
+// copy
+
+
+
 ReactDOM.render(
 
   <Router history={hist}>
@@ -37,8 +62,10 @@ ReactDOM.render(
 
     
     <ReactAudioPlayer
-      src={Storage.get('bgm.mp3')}
+      // src={bgm}
       // src={require("bgm.mp3")}
+      // src={"s3://pageforseowon157a9bedba8647de9bb3b81b5b2f349b235658-dev/bgm.mp3"}
+      src={"https://pageforseowon157a9bedba8647de9bb3b81b5b2f349b235658-dev.s3.amazonaws.com/bgm.mp3"}
       controls
       autoPlay
       loop
